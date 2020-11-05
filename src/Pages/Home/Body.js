@@ -4,7 +4,7 @@ import { Grid, Typography, withStyles, Button } from "@material-ui/core";
 
 const styles = (theme) => ({
   releasesHeader: {
-    padding: 5,
+    // padding: 5,
   },
 });
 
@@ -13,13 +13,9 @@ class Body extends React.Component {
     const { classes } = this.props;
     return (
       <React.Fragment>
-        <Grid container spacing={5}>
+        <Grid container spacing={5} justify="center">
           <Grid item key="releasesHeader" xs={12} sm={12} md={12}>
-            <Button
-              variant="outlined"
-              color="secondary"
-              style={{ width: "100%" }}
-            >
+            <Button variant="outlined" style={{ width: "100%" }}>
               <Typography variant="h5" className={classes.releasesHeader}>
                 релизы
               </Typography>
@@ -28,6 +24,7 @@ class Body extends React.Component {
           {releasesCollection.map((release) => (
             <Grid item key={release.title} xs={12} sm={6} md={3}>
               <ReleaseCard
+                id={release.id}
                 title={release.title}
                 img={release.img}
                 description={release.description}
