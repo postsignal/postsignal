@@ -10,20 +10,28 @@ class HeaderLinks extends React.Component {
   render() {
     return (
       <ButtonGroup variant="text" color="secondary">
-        <Button>
+        <Button
+          href="https://www.instagram.com/postsignal.band/"
+          target="_blank"
+        >
           <InstagramIcon />
         </Button>
-        <Button>
+        <Button
+          href="https://www.youtube.com/channel/UCK4jMcojhUlS_zEAPg2Gldg"
+          target="_blank"
+        >
           <YouTubeIcon />
         </Button>
-        <Button>vk</Button>
-        <Button>
+        <Button href="https://vk.com/postsignal" target="_blank">
+          vk
+        </Button>
+        <Button href="https://www.facebook.com/postsignal" target="_blank">
           <FacebookIcon />
         </Button>
-        <Button>
+        <Button href="https://soundcloud.com/postsignal" target="_blank">
           <CloudQueueIcon />
         </Button>
-        <Button>
+        <Button href="mailto:postsignal.band@gmail.com">
           <MailOutlineIcon />
         </Button>
       </ButtonGroup>

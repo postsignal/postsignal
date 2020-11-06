@@ -13,6 +13,11 @@ const styles = (theme) => ({
   root: {
     background: "linear-gradient(45deg, #544157 30%, #4b0959 90%)",
   },
+  gridcontainer: {
+    [theme.breakpoints.down("xs")]: {
+      justifyContent: "center",
+    },
+  },
 });
 
 class Header extends React.Component {
@@ -22,7 +27,12 @@ class Header extends React.Component {
       <React.Fragment>
         <AppBar position="sticky" className={classes.root}>
           <Toolbar>
-            <Grid container justify="space-between" alignItems="center">
+            <Grid
+              container
+              justify="space-between"
+              alignItems="center"
+              className={classes.gridcontainer}
+            >
               <Grid item key="releasesHeader">
                 <Button href="/">
                   <Typography
@@ -33,6 +43,7 @@ class Header extends React.Component {
                   </Typography>
                 </Button>
               </Grid>
+              <Grid item key="headerSpace"></Grid>
               <Grid item key="links">
                 <HeaderLinks />
               </Grid>
