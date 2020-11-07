@@ -4,7 +4,7 @@ import HeadsetOutlinedIcon from "@material-ui/icons/HeadsetOutlined";
 
 const styles = (theme) => ({
   image: {
-    borderRadius: "50%",
+    borderRadius: 4,
     width: "100%",
     "&:hover": {
       zIndex: 1,
@@ -47,7 +47,7 @@ const styles = (theme) => ({
   imageMarkedText: {},
 });
 
-class ReleaseCard extends React.Component {
+class LinkToReleaseCard extends React.Component {
   render() {
     const { classes } = this.props;
     return (
@@ -81,4 +81,4 @@ class ReleaseCard extends React.Component {
   }
 }
 
-export default withStyles(styles)(ReleaseCard);
+export default withStyles(styles)(LinkToReleaseCard);

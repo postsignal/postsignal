@@ -1,5 +1,5 @@
 import React from "react";
-import Body from "./Body";
+import Body from "./HomeBody";
 import Layout from "../../Layout/Layout";
 
 class Home extends React.Component {

@@ -1,13 +1,7 @@
 import React from "react";
-import HeaderLinks from "./HeaderLinks";
-import {
-  withStyles,
-  Grid,
-  Button,
-  Toolbar,
-  AppBar,
-  Typography,
-} from "@material-ui/core";
+import Links from "./HeaderLinks";
+import BandName from "./HeaderBandName";
+import { withStyles, Grid, Toolbar, AppBar } from "@material-ui/core";
 
 const styles = (theme) => ({
   root: {
@@ -34,18 +28,10 @@ class Header extends React.Component {
               className={classes.gridcontainer}
             >
               <Grid item key="releasesHeader">
-                <Button href="/">
-                  <Typography
-                    variant="h4"
-                    style={{ textTransform: "lowercase" }}
-                  >
-                    postsignal
-                  </Typography>
-                </Button>
+                <BandName />
               </Grid>
-              <Grid item key="headerSpace"></Grid>
               <Grid item key="links">
-                <HeaderLinks />
+                <Links />
               </Grid>
             </Grid>
           </Toolbar>

@@ -1,5 +1,5 @@
 import React from "react";
-import ReleaseCard from "./ReleaseCard";
+import LinkToReleaseCard from "./LinkToReleaseCard";
 import { Grid, Typography, withStyles, Button } from "@material-ui/core";
 
 const styles = (theme) => ({
@@ -23,7 +23,7 @@ class Body extends React.Component {
           </Grid>
           {releasesCollection.map((release) => (
             <Grid item key={release.title} xs={12} sm={6} md={3}>
-              <ReleaseCard
+              <LinkToReleaseCard
                 id={release.id}
                 title={release.title}
                 img={release.img}
