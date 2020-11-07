@@ -4,19 +4,8 @@ import {
   CardMedia,
   Button,
   ButtonGroup,
-  Box,
   Grid,
 } from "@material-ui/core";
-
-export const linksToReleas = [
-  { name: "Spotify", url: "https://www.spotify.com/", logoImg: "Spotify.png" },
-  { name: "YouTube", url: "https://www.youtube.com/", logoImg: "YouTube.png" },
-  {
-    name: "YandexMusic",
-    url: "https://music.yandex.com",
-    logoImg: "yandexMusic.png",
-  },
-];
 
 class ReleaseLinks extends Component {
   render() {
@@ -28,7 +17,7 @@ class ReleaseLinks extends Component {
           variant="text"
           style={{ width: "100%" }}
         >
-          {linksToReleas.map((link) => (
+          {this.props.links.map((link) => (
             <Button
               href={link.url}
               target="_blank"

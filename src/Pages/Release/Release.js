@@ -3,15 +3,19 @@ import { Grid } from "@material-ui/core";
 import Layout from "../../Layout/Layout";
 import Background from "./ReleaseBackground";
 import ReleaseCard from "./ReleaseCard";
+import releasesMetadata from "../../data/releasesMetadata.json";
 
 class Release extends Component {
   render() {
+    const releaseId = this.props.match.params.id;
+    const release = releasesMetadata.find(function (release) {
+      return release.id === releaseId;
+    });
     return (
       <Layout>
-        <Background img="Имаго.jpg" />
-        {/* <Box>{this.props.match.params.id}</Box> */}
+        <Background img={release.img} />
         <Grid container justify="center">
-          <ReleaseCard img="Имаго.jpg" />
+          <ReleaseCard releaseMetadata={release} />
         </Grid>
       </Layout>
     );

@@ -24,18 +24,18 @@ class ReleaseCard extends Component {
           <CardMedia
             component="img"
             alt="Cover"
-            image={`/img/covers/${this.props.img}`}
+            image={`/img/covers/${this.props.releaseMetadata.img}`}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Lizard
+              {this.props.releaseMetadata.title}
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Lizards are a widespread group of squamate reptiles
+              {this.props.releaseMetadata.description}
             </Typography>
           </CardContent>
         </CardActionArea>
-        <ReleaseLinks />
+        <ReleaseLinks links={this.props.releaseMetadata.links} />
       </Card>
     );
   }

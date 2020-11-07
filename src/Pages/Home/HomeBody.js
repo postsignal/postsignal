@@ -1,6 +1,7 @@
 import React from "react";
 import LinkToReleaseCard from "./LinkToReleaseCard";
 import { Grid, Typography, withStyles, Button } from "@material-ui/core";
+import releasesMetadata from "../../data/releasesMetadata.json";
 
 const styles = (theme) => ({
   releasesHeader: {
@@ -21,7 +22,7 @@ class Body extends React.Component {
               </Typography>
             </Button>
           </Grid>
-          {releasesCollection.map((release) => (
+          {releasesMetadata.map((release) => (
             <Grid item key={release.title} xs={12} sm={6} md={3}>
               <LinkToReleaseCard
                 id={release.id}
@@ -36,22 +37,5 @@ class Body extends React.Component {
     );
   }
 }
-
-export const releasesCollection = [
-  {
-    id: "imago",
-    title: "Имаго",
-    img: "Имаго.jpg",
-    description: "TBD",
-  },
-  {
-    id: "craters",
-    title: "Кратеры",
-    img: "Кратеры.jpg",
-    description: "TBD",
-  },
-  { id: "nbs", title: "Н.Б.С.", img: "НБС.jpg", description: "TBD" },
-  { id: "signal", title: "Сигнал", img: "Сигнал.jpg", description: "TBD" },
-];
 
 export default withStyles(styles)(Body);
