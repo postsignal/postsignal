@@ -5,6 +5,7 @@ import HeadsetOutlinedIcon from "@material-ui/icons/HeadsetOutlined";
 const styles = (theme) => ({
   image: {
     borderRadius: 4,
+    boxShadow: "10px 5px 10px -1px rgba(0,0,0,0.2)",
     width: "100%",
     "&:hover": {
       zIndex: 1,
@@ -70,7 +71,7 @@ class LinkToReleaseCard extends React.Component {
             variant="h5"
             className={classes.imageTitle}
           >
-            <Box>
+            <Box className={classes.imageMarked}>
               <HeadsetOutlinedIcon fontSize="large" />
             </Box>
             <Box className={classes.imageMarked}>слушать</Box>

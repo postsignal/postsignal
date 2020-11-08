@@ -12,6 +12,7 @@ import {
 const styles = (theme) => ({
   root: {
     maxWidth: 350,
+    boxShadow: "10px 5px 10px -1px rgba(0,0,0,0.2)",
   },
 });
 

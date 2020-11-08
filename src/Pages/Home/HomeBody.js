@@ -14,16 +14,23 @@ class Body extends React.Component {
     const { classes } = this.props;
     return (
       <React.Fragment>
-        <Grid container spacing={5} justify="center">
+        <Grid container spacing={8} justify="center">
           <Grid item key="releasesHeader" xs={12} sm={12} md={12}>
             <Button variant="text" style={{ width: "100%" }}>
-              <Typography variant="h5" className={classes.releasesHeader}>
+              <Typography variant="h4" className={classes.releasesHeader}>
                 релизы
               </Typography>
             </Button>
           </Grid>
           {releasesMetadata.map((release) => (
-            <Grid item key={release.title} xs={12} sm={6} md={3}>
+            <Grid
+              item
+              key={release.title}
+              xs={12}
+              sm={6}
+              md={6}
+              style={{ maxWidth: 450 }}
+            >
               <LinkToReleaseCard
                 id={release.id}
                 title={release.title}
