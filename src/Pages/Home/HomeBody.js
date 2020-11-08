@@ -16,7 +16,7 @@ class Body extends React.Component {
       <React.Fragment>
         <Grid container spacing={5} justify="center">
           <Grid item key="releasesHeader" xs={12} sm={12} md={12}>
-            <Button variant="outlined" style={{ width: "100%" }}>
+            <Button variant="text" style={{ width: "100%" }}>
               <Typography variant="h5" className={classes.releasesHeader}>
                 релизы
               </Typography>

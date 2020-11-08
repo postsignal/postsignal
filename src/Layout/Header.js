@@ -5,7 +5,8 @@ import { withStyles, Grid, Toolbar, AppBar } from "@material-ui/core";
 
 const styles = (theme) => ({
   root: {
-    background: "linear-gradient(45deg, #544157 30%, #4b0959 90%)",
+    // background: "linear-gradient(45deg, #514d52 30%, #443f45 90%)",
+    backgroundColor: theme.palette.background.paper,
   },
   gridcontainer: {
     [theme.breakpoints.down("xs")]: {

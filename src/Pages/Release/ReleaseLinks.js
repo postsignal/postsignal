@@ -13,7 +13,7 @@ class ReleaseLinks extends Component {
       <CardActions>
         <ButtonGroup
           orientation="vertical"
-          color="secondary"
+          // color="secondary"
           variant="text"
           style={{ width: "100%" }}
         >

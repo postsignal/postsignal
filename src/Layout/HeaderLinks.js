@@ -4,12 +4,20 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import CloudQueueIcon from "@material-ui/icons/CloudQueue";
-import { Button, ButtonGroup } from "@material-ui/core";
+import { Button, withStyles, Box } from "@material-ui/core";
 
+const styles = (theme) => ({
+  root: {
+    "& a": {
+      minWidth: 40,
+    },
+  },
+});
 class HeaderLinks extends React.Component {
   render() {
+    const { classes } = this.props;
     return (
-      <ButtonGroup variant="text" color="secondary">
+      <Box classes={classes}>
         <Button
           href="https://www.instagram.com/postsignal.band/"
           target="_blank"
@@ -34,9 +42,9 @@ class HeaderLinks extends React.Component {
         <Button href="mailto:postsignal.band@gmail.com">
           <MailOutlineIcon />
         </Button>
-      </ButtonGroup>
+      </Box>
     );
   }
 }
 
-export default HeaderLinks;
+export default withStyles(styles)(HeaderLinks);
