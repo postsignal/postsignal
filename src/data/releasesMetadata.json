@@ -2,7 +2,7 @@
   {
     "id": "imago",
     "title": "Имаго",
-    "img": "Имаго.jpg",
+    "img": "logo.jpg",
     "description": "TBD",
     "links": [
       {
@@ -18,14 +18,14 @@
       {
         "name": "YandexMusic",
         "url": "https://music.yandex.com",
-        "logoImg": "yandexMusic.png"
+        "logoImg": "YandexMusic.png"
       }
     ]
   },
   {
     "id": "craters",
     "title": "Кратеры",
-    "img": "Кратеры.jpg",
+    "img": "logo.jpg",
     "description": "TBD",
     "links": [
       {
@@ -38,7 +38,7 @@
   {
     "id": "nbs",
     "title": "Н.Б.С.",
-    "img": "НБС.jpg",
+    "img": "logo.jpg",
     "description": "TBD",
     "links": [
       {
@@ -51,13 +51,13 @@
   {
     "id": "signal",
     "title": "Сигнал",
-    "img": "Сигнал.jpg",
+    "img": "logo.jpg",
     "description": "TBD",
     "links": [
       {
         "name": "YandexMusic",
         "url": "https://music.yandex.com",
-        "logoImg": "yandexMusic.png"
+        "logoImg": "YandexMusic.png"
       }
     ]
   }
