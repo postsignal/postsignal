@@ -55,13 +55,13 @@ class LinkToReleaseCard extends React.Component {
       <ButtonBase
         key={this.props.id}
         className={classes.image}
-        href={`/releases/${this.props.id}`}
+        href={`${process.env.PUBLIC_URL}/releases/${this.props.id}`}
       >
         <Box
           component="span"
           className={classes.imageSrc}
           style={{
-            backgroundImage: `url("/img/covers/${this.props.img}")`,
+            backgroundImage: `url("${process.env.PUBLIC_URL}/img/covers/${this.props.img}")`,
           }}
         />
         <Box component="span" className={classes.imageBackdrop} />

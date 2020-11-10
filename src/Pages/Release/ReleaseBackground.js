@@ -6,7 +6,7 @@ class ReleaseBackground extends Component {
     return (
       <Box
         style={{
-          backgroundImage: `url("/img/covers/${this.props.img}")`,
+          backgroundImage: `url("${process.env.PUBLIC_URL}/img/covers/${this.props.img}")`,
           filter: "blur(25px)",
           WebkitFilter: "blur(25px)",
           backgroundPosition: "center",

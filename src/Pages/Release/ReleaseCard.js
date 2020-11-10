@@ -25,7 +25,7 @@ class ReleaseCard extends Component {
           <CardMedia
             component="img"
             alt="Cover"
-            image={`/img/covers/${this.props.releaseMetadata.img}`}
+            image={`${process.env.PUBLIC_URL}/img/covers/${this.props.releaseMetadata.img}`}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">

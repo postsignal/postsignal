@@ -34,7 +34,7 @@ class ReleaseLinks extends Component {
                   <CardMedia
                     component="img"
                     alt={link.name}
-                    image={`/img/logos/${link.logoImg}`}
+                    image={`${process.env.PUBLIC_URL}/img/logos/${link.logoImg}`}
                     style={{ maxWidth: 130 }}
                   />
                 </Grid>

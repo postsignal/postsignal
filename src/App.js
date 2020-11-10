@@ -5,7 +5,7 @@ import Routing from "./Routing.js";
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routing />
       </Router>
     );

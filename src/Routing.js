@@ -5,6 +5,7 @@ import Release from "./Pages/Release/Release";
 
 export const HomeRoute = "/";
 export const ReleaseRoute = "/releases/:id";
+
 class Routing extends React.Component {
   render() {
     return (
