@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce9c77ad025193cbcd033762b120b2fe",
+    "revision": "503b1d6829c588d097032ec3408965dc",
     "url": "/postsignal/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/postsignal/static/js/2.645ef46f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a39721f2109e3a723e11",
-    "url": "/postsignal/static/js/main.30ec3ac0.chunk.js"
+    "revision": "2ad02c548dd117bfa399",
+    "url": "/postsignal/static/js/main.6bebbbe0.chunk.js"
   },
   {
     "revision": "b46317abc554e3a64b4e",
