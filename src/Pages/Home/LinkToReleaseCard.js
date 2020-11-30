@@ -51,17 +51,18 @@ const styles = (theme) => ({
 class LinkToReleaseCard extends React.Component {
   render() {
     const { classes } = this.props;
+    const release = this.props.release;
     return (
       <ButtonBase
-        key={this.props.id}
+        key={release.id}
         className={classes.image}
-        href={`${process.env.PUBLIC_URL}/releases/${this.props.id}`}
+        href={`${process.env.PUBLIC_URL}/releases/${release.id}`}
       >
         <Box
           component="span"
           className={classes.imageSrc}
           style={{
-            backgroundImage: `url("${process.env.PUBLIC_URL}/img/covers/${this.props.img}")`,
+            backgroundImage: `url("${process.env.PUBLIC_URL}/img/covers/${release.img}")`,
           }}
         />
         <Box component="span" className={classes.imageBackdrop} />

@@ -27,12 +27,7 @@ class Body extends React.Component {
         </Grid>
         {releasesMetadata.map((release) => (
           <Grid item key={release.id} xs={12} sm={6} style={{ maxWidth: 450 }}>
-            <LinkToReleaseCard
-              id={release.id}
-              title={release.title}
-              img={release.img}
-              description={release.description}
-            />
+            <LinkToReleaseCard release={release} />
           </Grid>
         ))}
       </Grid>

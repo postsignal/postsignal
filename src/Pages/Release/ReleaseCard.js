@@ -19,24 +19,25 @@ const styles = (theme) => ({
 class ReleaseCard extends Component {
   render() {
     const { classes } = this.props;
+    const releaseMetadata = this.props.releaseMetadata;
     return (
       <Card className={classes.root}>
         <CardActionArea>
           <CardMedia
             component="img"
             alt="Cover"
-            image={`${process.env.PUBLIC_URL}/img/covers/${this.props.releaseMetadata.img}`}
+            image={`${process.env.PUBLIC_URL}/img/covers/${releaseMetadata.img}`}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              {this.props.releaseMetadata.title}
+              {releaseMetadata.title}
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              {this.props.releaseMetadata.description}
+              {releaseMetadata.description}
             </Typography>
           </CardContent>
         </CardActionArea>
-        <ReleaseLinks links={this.props.releaseMetadata.links} />
+        <ReleaseLinks links={releaseMetadata.links} />
       </Card>
     );
   }
