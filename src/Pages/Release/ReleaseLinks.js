@@ -13,7 +13,6 @@ class ReleaseLinks extends Component {
       <CardActions>
         <ButtonGroup
           orientation="vertical"
-          // color="secondary"
           variant="text"
           style={{ width: "100%" }}
         >
@@ -35,7 +34,7 @@ class ReleaseLinks extends Component {
                     component="img"
                     alt={link.name}
                     image={`${process.env.PUBLIC_URL}/img/logos/${link.logoImg}`}
-                    style={{ maxWidth: 130 }}
+                    style={{ maxWidth: 135 }}
                   />
                 </Grid>
                 <Grid item>cлушать</Grid>
