@@ -1,10 +1,11 @@
 import React from "react";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import CloudQueueIcon from "@material-ui/icons/CloudQueue";
-import { Button, withStyles, Box } from "@material-ui/core";
+import { Button, withStyles, Box, SvgIcon } from "@material-ui/core";
+import { ReactComponent as InstagramIcon } from "../data/icons/instagram.svg";
+import { ReactComponent as YouTubeIcon } from "../data/icons/youtube.svg";
+import { ReactComponent as SoundCloudIcon } from "../data/icons/soundcloud.svg";
+import { ReactComponent as VkIcon } from "../data/icons/vk.svg";
+import { ReactComponent as FacebookIcon } from "../data/icons/facebook.svg";
+import { ReactComponent as EmailIcon } from "../data/icons/email.svg";
 
 const styles = (theme) => ({
   root: {
@@ -24,7 +25,9 @@ class HeaderLinks extends React.Component {
           target="_blank"
           rel="noopener"
         >
-          <InstagramIcon />
+          <SvgIcon>
+            <InstagramIcon />
+          </SvgIcon>
         </Button>
         <Button
           href="https://www.youtube.com/channel/UCK4jMcojhUlS_zEAPg2Gldg"
@@ -32,18 +35,19 @@ class HeaderLinks extends React.Component {
           target="_blank"
           rel="noopener"
         >
-          <YouTubeIcon />
-        </Button>
-        <Button href="https://vk.com/postsignal" target="_blank" rel="noopener">
-          vk
+          <SvgIcon>
+            <YouTubeIcon />
+          </SvgIcon>
         </Button>
         <Button
-          href="https://www.facebook.com/postsignal"
-          aria-label="facebook link"
+          href="https://vk.com/postsignal"
           target="_blank"
           rel="noopener"
+          aria-label="vk link"
         >
-          <FacebookIcon />
+          <SvgIcon>
+            <VkIcon />
+          </SvgIcon>
         </Button>
         <Button
           href="https://soundcloud.com/postsignal"
@@ -51,13 +55,27 @@ class HeaderLinks extends React.Component {
           target="_blank"
           rel="noopener"
         >
-          <CloudQueueIcon />
+          <SvgIcon>
+            <SoundCloudIcon />
+          </SvgIcon>
+        </Button>
+        <Button
+          href="https://www.facebook.com/postsignal"
+          aria-label="facebook link"
+          target="_blank"
+          rel="noopener"
+        >
+          <SvgIcon>
+            <FacebookIcon />
+          </SvgIcon>
         </Button>
         <Button
           href="mailto:postsignal.band@gmail.com"
           aria-label="mailto link"
         >
-          <MailOutlineIcon />
+          <SvgIcon>
+            <EmailIcon />
+          </SvgIcon>
         </Button>
       </Box>
     );
