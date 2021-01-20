@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid } from "@material-ui/core";
 import Layout from "../../Layout/Layout";
-import Background from "./ReleaseBackground";
+import Background from "../../Layout/Background";
 import ReleaseCard from "./ReleaseCard";
 import releasesMetadata from "../../data/releasesMetadata.json";
 import { Redirect } from "react-router-dom";
@@ -19,7 +19,9 @@ class Release extends Component {
 
     return (
       <Layout>
-        <Background img={release.img} />
+        <Background
+          img={`${process.env.PUBLIC_URL}/img/covers/${release.img}`}
+        />
         <Grid container justify="center">
           <ReleaseCard releaseMetadata={release} />
         </Grid>

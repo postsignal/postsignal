@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Box } from "@material-ui/core";
 
-class ReleaseBackground extends Component {
+class Background extends Component {
   render() {
     return (
       <Box
         style={{
-          backgroundImage: `url("${process.env.PUBLIC_URL}/img/covers/${this.props.img}")`,
+          backgroundImage: `url(${this.props.img})`,
           filter: "blur(25px)",
           WebkitFilter: "blur(25px)",
           backgroundPosition: "center",
@@ -25,4 +25,4 @@ class ReleaseBackground extends Component {
   }
 }
 
-export default ReleaseBackground;
+export default Background;
