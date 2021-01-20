@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReleaseLinks from "./ReleaseLinks";
 import AudioPlayer from "./AudioPlayer";
+import Lyrics from "./ReleaseLyrics";
 import {
   CardActionArea,
   Card,
@@ -60,6 +61,7 @@ class ReleaseCard extends Component {
           </Typography>
         </CardContent>
         <AudioPlayer pathToTrack={pathToTrack} />
+        <Lyrics text={releaseMetadata.lyrics} />
         <ReleaseLinks links={releaseMetadata.links} />
       </Card>
     );
