@@ -1,6 +1,6 @@
 import React from "react";
 import LinkToReleaseCard from "./LinkToReleaseCard";
-import { Grid, Typography, withStyles, Button } from "@material-ui/core";
+import { Grid, withStyles, Box } from "@material-ui/core";
 import releasesMetadata from "../../data/releasesMetadata.json";
 
 const styles = (theme) => ({
@@ -21,10 +21,18 @@ class Body extends React.Component {
         className={classes.gridContainer}
       >
         <Grid item key="releasesHeader" xs={12} style={{ padding: 0 }}>
-          <Button variant="text" style={{ width: "100%" }}>
-            <Typography variant="h4">релизы</Typography>
-          </Button>
+          <Box
+            borderBottom={1}
+            textAlign="center"
+            letterSpacing={15}
+            fontWeight="fontWeightLight"
+            fontSize="h4.fontSize"
+            style={{ textTransform: "uppercase" }}
+          >
+            музыка
+          </Box>
         </Grid>
+
         {releasesMetadata.map((release) => (
           <Grid item key={release.id} xs={12} sm={6} style={{ maxWidth: 450 }}>
             <LinkToReleaseCard release={release} />
