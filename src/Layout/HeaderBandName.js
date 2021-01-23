@@ -10,6 +10,7 @@ class HeaderBandName extends React.Component {
           fontWeight="fontWeightLight"
           fontSize="2.5em"
           style={{ textTransform: "lowercase" }}
+          color="#c3bfca"
         >
           postsignal
         </Box>
