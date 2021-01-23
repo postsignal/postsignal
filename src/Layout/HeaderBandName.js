@@ -1,13 +1,18 @@
 import React from "react";
-import { Button, Typography } from "@material-ui/core";
+import { Button, Box } from "@material-ui/core";
 
 class HeaderBandName extends React.Component {
   render() {
     return (
       <Button href={`${process.env.PUBLIC_URL}/`}>
-        <Typography variant="h4" style={{ textTransform: "lowercase" }}>
+        <Box
+          letterSpacing={2}
+          fontWeight="fontWeightLight"
+          fontSize="2.5em"
+          style={{ textTransform: "lowercase" }}
+        >
           postsignal
-        </Typography>
+        </Box>
       </Button>
     );
   }
