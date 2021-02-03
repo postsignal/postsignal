@@ -1,13 +1,8 @@
 import React from "react";
-import {
-  Container,
-  CssBaseline,
-  Typography,
-  Box,
-  withStyles,
-} from "@material-ui/core";
+import { Container, CssBaseline, Box, withStyles } from "@material-ui/core";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export const theme = createMuiTheme({
   palette: {
@@ -37,9 +32,7 @@ class Layout extends React.Component {
           <Header />
           <Container>{this.props.children}</Container>
           <footer className={classes.footer}>
-            <Typography variant="body2" color="textSecondary" align="center">
-              {`© ${new Date().getFullYear()} postsignal`}
-            </Typography>
+            <Footer />
           </footer>
         </Box>
       </ThemeProvider>
