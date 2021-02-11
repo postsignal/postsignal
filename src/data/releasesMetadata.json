@@ -1,64 +1,52 @@
 [
   {
-    "id": "imago",
-    "title": "Имаго",
-    "img": "logo.jpg",
-    "description": "TBD",
-    "links": [
-      {
-        "name": "Spotify",
-        "url": "https://www.spotify.com/",
-        "logoImg": "Spotify.png"
-      },
-      {
-        "name": "YouTube",
-        "url": "https://www.youtube.com/",
-        "logoImg": "YouTube.png"
-      },
-      {
-        "name": "YandexMusic",
-        "url": "https://music.yandex.com",
-        "logoImg": "YandexMusic.png"
-      }
-    ]
-  },
-  {
     "id": "craters",
     "title": "Кратеры",
-    "img": "logo.jpg",
-    "description": "TBD",
+    "img": "craters.jpg",
+    "trackName": "postsignal - Кратеры.mp3",
     "links": [
-      {
-        "name": "Spotify",
-        "url": "https://www.spotify.com/",
-        "logoImg": "Spotify.png"
-      }
-    ]
-  },
-  {
-    "id": "nbs",
-    "title": "Н.Б.С.",
-    "img": "logo.jpg",
-    "description": "TBD",
-    "links": [
-      {
-        "name": "YouTube",
-        "url": "https://www.youtube.com/",
-        "logoImg": "YouTube.png"
-      }
-    ]
+      "https://youtu.be/JUrixyrrd7c",
+      "https://open.spotify.com/album/1o2Unv9qHut0d7dZnItG8l",
+      "https://music.yandex.ru/album/13714811",
+      "https://soundcloud.com/postsignal/kratery",
+      "https://deezer.page.link/efkGkNPH1tS1CM736",
+      "https://music.apple.com/by/album/%D0%BA%D1%80%D0%B0%D1%82%D0%B5%D1%80%D1%8B/1551646908?i=1551646909",
+      "https://vk.com/music/album/-2000276590_10276590_2d91fccf676a611f1a",
+      "https://postsignal.bandcamp.com/track/--5"
+    ],
+    "lyrics": "Еду на поезде\nПо направлению\nДомой\n\nЛунные кратеры\nИ чай без сахара\nС тобой\n\nДороги забытые\nНо сердце шепчет мне\nДомой\nНа встречу с тобой\n\nЕду на поезде\nВсе ближе и ближе я\nК тебе\nС тобой\n\nИ даже если \nПогаснут звёзды\nЯ знаю: возможно\nНайти путь домой\n\nИ даже если\nЗамерзнет солнце\nЯ знаю: не поздно\nБыть снова с тобой\n\nМесто под звёздами\nНа неопознанной\nЗемле\n\nСлышится, видится\nГде-то там,\nГде-то там\nГде\n\nТонкими кистями\nХрупкими листьями\nИ по воде\n\nВсе растворяется\nНо не меняется\nЗдесь в пустоте\n\nИ даже если \nПогаснут звёзды\nЯ знаю: возможно\nНайти путь домой\n\nИ даже если\nЗамерзнет солнце\nЯ знаю: не поздно\nБыть снова с тобой\n\nМежду небом и Луной\nС тобой\nНа экваторе\nНа дне кратера\n\nТебе нужно солнце\nОно внутри бьётся\nПосмотри,\nПосмотри\n \nВнутри меня сердце\nГорит\n\nИ даже если \nПогаснут звёзды\nЯ знаю: возможно\nНайти путь домой\n\nИ даже если\nЗамерзнет солнце\nЯ знаю: не поздно\nБыть снова с тобой"
   },
   {
     "id": "signal",
     "title": "Сигнал",
-    "img": "logo.jpg",
-    "description": "TBD",
+    "img": "signal.jpg",
+    "trackName": "postsignal - Сигнал.mp3",
     "links": [
-      {
-        "name": "YandexMusic",
-        "url": "https://music.yandex.com",
-        "logoImg": "YandexMusic.png"
-      }
-    ]
+      "https://youtu.be/orDlFh_UIrQ",
+      "https://open.spotify.com/album/0uQxmej1jH9RRSVzCNMfE4?si=jhIHxLNGSBKzTzTdF19qDQ",
+      "https://music.yandex.ru/album/13714802",
+      "https://soundcloud.com/postsignal/signal-1",
+      "https://deezer.page.link/v5NvPHUmayZYMLA19",
+      "https://music.apple.com/by/album/%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB-single/1551646346",
+      "https://vk.com/music/album/-2000276582_10276582_fd1b146f83e5022b3d",
+      "https://postsignal.bandcamp.com/track/--3"
+    ],
+    "lyrics": "Сию минутное веселье\nПромчалось тенью\nИ в воскресенье \nКак прежде буду жечь мосты\nИ снова видеть эти сны \n\nНапрасна эта колыбель но\nЗдесь только я\nИ борьба с ленью\nУходит почва из-под ног\nХочу быть я не одинок\n\nТаю\nУлетаю\nМысли не таю\n\nТаю\nУлетаю\nМысли не таю\n\nСтоп \nСигнал\nСиял\nИ мимо меня пролетал \n\nСтоп\nСигнал\nСейчас\nДействовать перестал\n\nПорыв внезапный как наваждение\nСпособный мне поднять настроение \nВыходит все наоборот \nЯ пропустил свой поворот\n\nТеперь на грани я распада\nВ пути моём одна преграда \nЛишь этот дерзкий стоп сигнал\nКоторый столько раз встречал\n\nТаю\nУлетаю\nМысли не таю\n\nТаю\nУлетаю\nМысли не таю\n\nСтоп \nСигнал\nСиял\nИ мимо меня пролетал \n\nСтоп\nСигнал\nСейчас\nДействовать перестал"
+  },
+  {
+    "id": "imago",
+    "title": "Имаго",
+    "img": "imago.jpg",
+    "trackName": "postsignal - Имаго.mp3",
+    "links": [
+      "https://open.spotify.com/album/5Y5rMipxyDZ202Z5qctmMd?si=zzPPK__8TfKGpx2bYeZrOg",
+      "https://music.yandex.ru/album/13711470/track/77376472",
+      "https://youtu.be/d5tPqwZDx1Q",
+      "https://deezer.page.link/dE5yLnCiBDp7n8vL8",
+      "https://soundcloud.com/postsignal/imago",
+      "https://postsignal.bandcamp.com/track/-",
+      "https://vk.com/music/album/-2000271641_10271641_b6c12d7376ea56800f"
+    ],
+    "lyrics": "Сделав хоть раз однажды\nС каждой минутой жажда\nПопробовать стоит дважды\nЧтобы понять меня\n \nПрекрасное рядом с каждым\nВ каждом движении – жажда\nВ каждой секунде – жажда\nЕсли ты понял о чем я\n\nЭто безумие\nВ жерле Везувия\nМы вдруг танцуем, да\nНа красных углях\n\nЕстественно не безопасно\nПарить в невесомости страстной\nБыть поглощенным жаждой\nНа красный, пока тормоза...\n \nОднако эта атака\nИ вместо шлема дуршлаг\nПора становиться имаго\nНавстречу творить чудеса\n\nЭто безумие\nВ жерле Везувия\nМы вдруг танцуем, да\nНа красных углях\n\nАтака, атака, атака\nПора становиться Имаго\n\nАтака, атака, атака\nПора становиться Имаго\n\nАтака, атака, атака\nПора становиться Имаго\n\nАтака, атака, атака\n...Имаго"
   }
 ]

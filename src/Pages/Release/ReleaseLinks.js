@@ -6,6 +6,7 @@ import {
   ButtonGroup,
   Grid,
 } from "@material-ui/core";
+import logosMapper from "./logosMapper";
 
 class ReleaseLinks extends Component {
   render() {
@@ -16,11 +17,11 @@ class ReleaseLinks extends Component {
           variant="text"
           style={{ width: "100%" }}
         >
-          {this.props.links.map((link) => (
+          {this.props.links.map((link, index) => (
             <Button
-              href={link.url}
+              href={link}
               target="_blank"
-              key={link.name}
+              key={index}
               style={{ padding: 20 }}
             >
               <Grid
@@ -32,8 +33,10 @@ class ReleaseLinks extends Component {
                 <Grid item>
                   <CardMedia
                     component="img"
-                    alt={link.name}
-                    image={`${process.env.PUBLIC_URL}/img/logos/${link.logoImg}`}
+                    alt="Streaming logo"
+                    image={`${process.env.PUBLIC_URL}/img/logos/${logosMapper(
+                      link
+                    )}.png`}
                     style={{ maxWidth: 135 }}
                   />
                 </Grid>
