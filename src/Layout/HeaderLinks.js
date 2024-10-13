@@ -39,16 +39,16 @@ class HeaderLinks extends React.Component {
             <YouTubeIcon />
           </SvgIcon>
         </Button>
-        <Button
-          href="https://vk.com/postsignal"
-          target="_blank"
-          rel="noopener"
-          aria-label="vk link"
-        >
-          <SvgIcon>
-            <VkIcon />
-          </SvgIcon>
-        </Button>
+        // <Button
+        //   href="https://vk.com/postsignal"
+        //   target="_blank"
+        //   rel="noopener"
+        //   aria-label="vk link"
+        // >
+        //   <SvgIcon>
+        //     <VkIcon />
+        //   </SvgIcon>
+        // </Button>
         <Button
           href="https://soundcloud.com/postsignal"
           aria-label="soundcloud link"
